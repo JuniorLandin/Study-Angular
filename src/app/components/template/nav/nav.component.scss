@@ -1,0 +1,38 @@
+
+.example-container {
+  position: fixed;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidenav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: calc(100vh - 60px); /* Altura da janela menos a altura do cabeçalho */
+  background-color: #3f51b5;
+}
+.sidenav i{
+    padding-right: 10px;
+}
+
+.link{
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    
+    span{
+      color: #fff;
+    }
+}
+.link i.material-icons.v-middle {
+  color: #fff; /* Define a cor para os ícones */
+}
+.content{
+  padding: 16px;
+  background-color: #fff;
+}
