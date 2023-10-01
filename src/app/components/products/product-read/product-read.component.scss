@@ -3,6 +3,16 @@
     display: flex;
     justify-content: space-around;
 }
+
 .del{
-    color: #e35e6b
+    color: #e35e6b;
+}
+
+.del, .edit{
+    transition: transform 0.3s ease;
+}
+.del:hover,
+.edit:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }

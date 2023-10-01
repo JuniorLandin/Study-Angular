@@ -1,5 +1,5 @@
-<mat-sidenav-container class="example-container">
-  <mat-sidenav
+<mat-drawer-container class="example-container">
+  <mat-drawer
     class="sidenav"
     mode="side"
     opened
@@ -16,9 +16,9 @@
         <span class="letter">Produtos</span>
       </a>
     </mat-nav-list>
-  </mat-sidenav>
-  <!--Componente HOME-->
-  <mat-sidenav-content class="content">
-    <router-outlet></router-outlet>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+  </mat-drawer>
+    <!--Componente HOME-->
+    <mat-drawer-content class="content">
+      <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>
