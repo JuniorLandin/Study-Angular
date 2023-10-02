@@ -31,7 +31,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort'
 import { MatIconModule } from '@angular/material/icon';
 import { ProductUpdateComponent } from './components/products/product-update/product-update.component';
-import { ProductDeleteComponent } from './components/products/product-delete/product-delete.component'
+import { ProductDeleteComponent } from './components/products/product-delete/product-delete.component';
 
 @NgModule({
   declarations: [
